@@ -1,0 +1,10 @@
+{
+  "token_type": "Bearer",
+  "issued_at": "1705312800000",
+  "client_id": "test-client-id",
+  "access_token": "test-token-abc123",
+  "scope": "",
+  "expires_in": "14400",
+  "refresh_count": "0",
+  "status": "approved"
+}

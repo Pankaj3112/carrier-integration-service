@@ -1,0 +1,42 @@
+{
+  "unauthorized": {
+    "response": {
+      "errors": [
+        {
+          "code": "250003",
+          "message": "Invalid Access License number"
+        }
+      ]
+    }
+  },
+  "rateLimited": {
+    "response": {
+      "errors": [
+        {
+          "code": "250007",
+          "message": "Rate limit exceeded. Please retry after some time"
+        }
+      ]
+    }
+  },
+  "serverError": {
+    "response": {
+      "errors": [
+        {
+          "code": "190001",
+          "message": "Unexpected system error"
+        }
+      ]
+    }
+  },
+  "invalidAddress": {
+    "response": {
+      "errors": [
+        {
+          "code": "111210",
+          "message": "The requested service is unavailable between the selected locations"
+        }
+      ]
+    }
+  }
+}

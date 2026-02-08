@@ -1,0 +1,98 @@
+{
+  "RateResponse": {
+    "Response": {
+      "ResponseStatus": {
+        "Code": "1",
+        "Description": "Success"
+      },
+      "Alert": [
+        {
+          "Code": "110971",
+          "Description": "Your invoice may vary from the displayed reference rates"
+        },
+        {
+          "Code": "111531",
+          "Description": "No user level discount applied for this shipment."
+        }
+      ],
+      "TransactionReference": {
+        "CustomerContext": "trans123",
+        "TransactionIdentifier": "xwsspta11bl6GskNQPcV4b"
+      }
+    },
+    "RatedShipment": {
+      "Service": {
+        "Code": "03",
+        "Description": ""
+      },
+      "RatedShipmentAlert": [
+        {
+          "Code": "110971",
+          "Description": "Your invoice may vary from the displayed reference rates"
+        }
+      ],
+      "BillingWeight": {
+        "UnitOfMeasurement": {
+          "Code": "LBS",
+          "Description": "Pounds"
+        },
+        "Weight": "7.0"
+      },
+      "TransportationCharges": {
+        "CurrencyCode": "USD",
+        "MonetaryValue": "15.54"
+      },
+      "BaseServiceCharge": {
+        "CurrencyCode": "USD",
+        "MonetaryValue": "0.00"
+      },
+      "ServiceOptionsCharges": {
+        "CurrencyCode": "USD",
+        "MonetaryValue": "0.00"
+      },
+      "TotalCharges": {
+        "CurrencyCode": "USD",
+        "MonetaryValue": "15.54"
+      },
+      "RatedPackage": {
+        "BaseServiceCharge": {
+          "CurrencyCode": "USD",
+          "MonetaryValue": "14.46"
+        },
+        "TransportationCharges": {
+          "CurrencyCode": "USD",
+          "MonetaryValue": "15.54"
+        },
+        "ServiceOptionsCharges": {
+          "CurrencyCode": "USD",
+          "MonetaryValue": "0.00"
+        },
+        "TotalCharges": {
+          "CurrencyCode": "USD",
+          "MonetaryValue": "15.54"
+        },
+        "Weight": "7.0",
+        "BillingWeight": {
+          "UnitOfMeasurement": {
+            "Code": "LBS",
+            "Description": "Pounds"
+          },
+          "Weight": "7.0"
+        },
+        "ItemizedCharges": [
+          {
+            "Code": "376",
+            "CurrencyCode": "USD",
+            "MonetaryValue": "0.00",
+            "SubType": "Urban"
+          },
+          {
+            "Code": "375",
+            "CurrencyCode": "USD",
+            "MonetaryValue": "1.08"
+          }
+        ]
+      }
+    }
+  }
+}
